@@ -1,4 +1,4 @@
-FROM    debian:stretch
+FROM    arm64v8/debian:stretch
 
 ENV     TOR_HOME    /var/lib/tor
 

@@ -1,4 +1,4 @@
-FROM    node:8.12.0-stretch
+FROM    arm64v8/node:8.16.0-stretch
 
 ENV     LOGS_DIR    /data/logs
 ENV     APP_DIR     /home/node/app

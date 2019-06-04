@@ -1,4 +1,4 @@
-FROM      mysql:5.7.25
+FROM      mysql/mysql-server:latest-aarch64
 
 # Copy mysql config
 COPY      ./docker/my-dojo/mysql/mysql-dojo.cnf /etc/mysql/conf.d/mysql-dojo.cnf

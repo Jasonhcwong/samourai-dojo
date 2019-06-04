@@ -1,4 +1,4 @@
-FROM nginx:1.15.10-alpine
+FROM arm64v8/nginx:1.15.12-alpine
 
 # Create data directory
 ENV     LOGS_DIR /data/logs

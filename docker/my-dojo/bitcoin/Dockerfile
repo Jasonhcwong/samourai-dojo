@@ -1,4 +1,4 @@
-FROM    debian:stretch
+FROM    arm64v8/debian:stretch
 
 
 #################################################################
@@ -6,8 +6,8 @@ FROM    debian:stretch
 #################################################################
 ENV     BITCOIN_HOME        /home/bitcoin
 ENV     BITCOIN_VERSION     0.18.0
-ENV     BITCOIN_URL         https://bitcoincore.org/bin/bitcoin-core-0.18.0/bitcoin-0.18.0-x86_64-linux-gnu.tar.gz
-ENV     BITCOIN_SHA256      5146ac5310133fbb01439666131588006543ab5364435b748ddfc95a8cb8d63f
+ENV     BITCOIN_URL         https://bitcoin.org/bin/bitcoin-core-0.18.0/bitcoin-0.18.0-aarch64-linux-gnu.tar.gz
+ENV     BITCOIN_SHA256      bfc3b8fddbb7ab9b532c9866859fc507ec959bdb82954966f54c8ebf8c7bb53b
 ENV     BITCOIN_ASC_URL     https://bitcoincore.org/bin/bitcoin-core-0.18.0/SHA256SUMS.asc
 ENV     BITCOIN_PGP_KEY     01EA5486DE18A882D4C2684590C8019E36C2E964
 
